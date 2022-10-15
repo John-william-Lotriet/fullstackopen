@@ -1,5 +1,5 @@
 export const data = {
-  name: "Half Stack application development",
+  course: "Half Stack application development",
   parts: [
     {
       name: "Fundamentals of React",

@@ -4,11 +4,11 @@ import Total from "./Components/Total";
 import { data } from "./data";
 
 const App = () => {
-  const { name, parts } = data;
+  const { course, parts } = data;
 
   return (
     <div>
-      <Header course={name} />
+      <Header course={course} />
       <Content parts={parts} />
       <Total parts={parts} />
     </div>
